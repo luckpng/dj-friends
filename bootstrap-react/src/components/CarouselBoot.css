@@ -1,0 +1,68 @@
+.btn_hover {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #F8FD0D;
+  width: 200px;
+  padding: 10px;
+  background-color: #000;
+  border-radius: 5px;
+  border: #F8FD0D 1px solid;
+  margin: 0 auto;
+  font-weight: bold;
+  margin-bottom: 5em;
+  transition: .5s;
+}
+
+.btn_hover:hover {
+  color: #000;
+  background-color: #F8FD0D;
+  border-radius: 5px;
+  border: #F8FD0D 1px solid;
+  margin: 0 auto;
+  margin-bottom: 5em;
+}
+
+@media screen and (max-width: 768px) {
+  .btn_hover {
+    display: none;
+    justify-content: center;
+    text-decoration: none;
+    color: #F8FD0D;
+    width: 200px;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 5px;
+    border: #F8FD0D 1px solid;
+    margin: 0 auto;
+    font-weight: bold;
+  }
+  
+  .btn_hover:hover {
+    color: #000;
+    background-color: #F8FD0D;
+    border-radius: 5px;
+    border: #F8FD0D 1px solid;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .typograph {
+    font-size: 16px;
+  }
+
+  .typograph_p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .typograph {
+    font-size: 14px;
+  }
+
+  .typograph_p {
+    display: none;
+  }
+}

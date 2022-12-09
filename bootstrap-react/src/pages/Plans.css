@@ -1,0 +1,49 @@
+.container_plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card_plans {
+  background-color: #fff;
+  width: 500px;
+  border-radius: 10px;
+  margin: 1em;
+}
+
+.header_plan {
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  text-align: center;
+}
+
+.body_plan {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer_plan {
+  border-top: 1px solid #000;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .card_plans {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 10px;
+    margin: 1em;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .card_plans {
+    background-color: #fff;
+    width: 200px;
+    border-radius: 10px;
+    margin: 1em;
+  }
+}

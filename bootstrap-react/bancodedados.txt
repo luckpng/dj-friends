@@ -1,0 +1,13 @@
+CREATE DATABASE media;
+USE media;
+CREATE TABLE aluno (
+  id INT NOT NULL AUTO_INCREMENT,
+  ra VARCHAR(50) NULL,
+  nome VARCHAR(50) NULL,
+  disciplina VARCHAR(50) NULL,
+  av1 double NOT NULL,
+  av2 double NOT NULL,
+  media double NOT NULL,
+  PRIMARY KEY (id)
+);
+SELECT * FROM media

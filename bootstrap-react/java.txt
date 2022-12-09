@@ -1,0 +1,26 @@
+public class Alunos {
+  public static void main(String[] args) {
+    String ra, nome, disciplina;
+
+    double av1, av2, media;
+    
+    ra = JOptionPane.showInputDialog('Digite o Ra do aluno');
+
+    nome = JOptionPane.showInputDialog('Digite o nome do aluno');
+
+    disciplina = JOptionPane.showInputDialog('Digite a disciplina que o aluno está cursando');
+
+    av1 = Double.parseDouble(JOptionPane.showInputDialog('Digite a nota da primeira avaliação'));
+    av2 = Double.parseDouble(JOptionPane.showInputDialog('Digite a nota da segunda avaliação'));
+
+    media = (av1 + av2) / 2;
+
+    JOptionPane.showMessageDialog(null, nome + "tem uma média de" + media);
+
+    if (media < 7) {
+      JOptionPane.showMessageDialog(null, "Reprovado");
+    } else {
+      JOptionPane.showMessageDialog(null, "Aprovado");
+    }
+  }
+}

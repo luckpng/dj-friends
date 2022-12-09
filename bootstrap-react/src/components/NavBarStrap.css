@@ -1,0 +1,53 @@
+.navbar_i {
+  background-color: #000;
+  padding: 1em;
+  border-bottom: #F8FD0D solid 1px;
+}
+
+.text {
+  color: #F8FD0D;
+  text-decoration: none;
+  padding:.75em;
+  border: #000 1px solid;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+.text:hover {
+  border: 1px solid #F8FD0D;
+  color: #F8FD0D;
+  border-radius: 5px;
+}
+
+.menu {
+  border: #F8FD0D 1px solid;
+}
+
+.play_logo {
+  display: none;
+  color: #F8FD0D;
+  font-weight: bold;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1000px) {
+  .text {
+    margin: 1em
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .logo_navbar {
+    display: none;
+  }
+
+  .play_logo {
+    display: flex;
+    margin: 0;
+    color: #F8FD0D;
+    font-weight: bold;
+    font-style: italic;
+
+  }
+}

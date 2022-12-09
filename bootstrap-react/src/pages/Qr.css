@@ -1,0 +1,20 @@
+.status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5em
+}
+
+.state {
+  color: #F8FD0D;
+  margin: 3em;
+}
+
+.resources {
+  display: none;
+}
+
+.resources1 {
+  flex-wrap: wrap;
+}
