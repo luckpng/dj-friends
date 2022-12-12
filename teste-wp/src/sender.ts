@@ -53,7 +53,7 @@ class Sender {
       })
     }
 
-    create('play-djs', qr, status)
+    create('play-djs', qr, status, { headless: false })
       .then((client) => start(client))
       .catch((error) => console.log(error))
   }
